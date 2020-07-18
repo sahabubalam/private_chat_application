@@ -14,6 +14,10 @@ import filter from './filter'
 
 import Vuex from 'vuex'
 
+//chat scroll
+import VueChatScroll from 'vue-chat-scroll'
+Vue.use(VueChatScroll)
+
 
 Vue.use(Vuex)
 const store=new Vuex.Store(storevuex)
